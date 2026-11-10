@@ -1,0 +1,21 @@
+{
+  "scenario": "D_completo",
+  "method": "Optuna TPESampler",
+  "optimization_metric": "validation_macro_f1",
+  "seed": 42,
+  "trials_completed": 20,
+  "best_trial": 12,
+  "best_parameters": {
+    "n_layers": 1,
+    "dropout": 0.1,
+    "l2": 8.454465736728857e-05,
+    "learning_rate": 0.0003757206082392826,
+    "batch_size": 32,
+    "units_0": 64
+  },
+  "best_f1_macro": 0.7218520512705463,
+  "best_accuracy": 0.7898305084745763,
+  "baseline_f1_macro": 0.7215456351574683,
+  "delta_f1": 0.00030641611307802297,
+  "test_used": false
+}

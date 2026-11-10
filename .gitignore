@@ -1,0 +1,42 @@
+﻿# Entorno Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Bases de experimentos
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos temporales LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Referencias externas
+/diabetes.csv
+/Predicting diabetes with a Keras NN.ipynb
+/notebooks/notebook_profesor.ipynb
+/data/raw/diabetes_referencia.csv
+/data/raw/breast_cancer_wisconsin.csv
+
+# Scripts del experimento anterior
+/src/01_preparar_datos.py
+/src/02_analisis_preparacion.py
+
+# Paquetes y copias locales
+/entrega_proyecto9/
+/Proyecto_9_IA_Optuna_Entrega.zip
+/dist/
+/build/
+
+# Archivos locales del editor
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,176 @@
+{
+  "dataset": "UCI 697",
+  "seed": 42,
+  "label_mapping": {
+    "Dropout": 0,
+    "Enrolled": 1,
+    "Graduate": 2
+  },
+  "split": {
+    "train": 2654,
+    "validation": 885,
+    "test": 885
+  },
+  "categorical_columns": [
+    "Marital Status",
+    "Application mode",
+    "Course",
+    "Previous qualification",
+    "Nacionality",
+    "Mother's qualification",
+    "Father's qualification",
+    "Mother's occupation",
+    "Father's occupation"
+  ],
+  "scenarios": {
+    "A_sin_semestres": {
+      "original_features": 21,
+      "encoded_features": 206,
+      "categorical_features": [
+        "Marital Status",
+        "Application mode",
+        "Course",
+        "Previous qualification",
+        "Nacionality",
+        "Mother's qualification",
+        "Father's qualification",
+        "Mother's occupation",
+        "Father's occupation"
+      ],
+      "numeric_features": [
+        "Application order",
+        "Daytime/evening attendance",
+        "Previous qualification (grade)",
+        "Admission grade",
+        "Displaced",
+        "Educational special needs",
+        "Debtor",
+        "Tuition fees up to date",
+        "Gender",
+        "Scholarship holder",
+        "Age at enrollment",
+        "International"
+      ]
+    },
+    "B_primer_semestre": {
+      "original_features": 27,
+      "encoded_features": 212,
+      "categorical_features": [
+        "Marital Status",
+        "Application mode",
+        "Course",
+        "Previous qualification",
+        "Nacionality",
+        "Mother's qualification",
+        "Father's qualification",
+        "Mother's occupation",
+        "Father's occupation"
+      ],
+      "numeric_features": [
+        "Application order",
+        "Daytime/evening attendance",
+        "Previous qualification (grade)",
+        "Admission grade",
+        "Displaced",
+        "Educational special needs",
+        "Debtor",
+        "Tuition fees up to date",
+        "Gender",
+        "Scholarship holder",
+        "Age at enrollment",
+        "International",
+        "Curricular units 1st sem (credited)",
+        "Curricular units 1st sem (enrolled)",
+        "Curricular units 1st sem (evaluations)",
+        "Curricular units 1st sem (approved)",
+        "Curricular units 1st sem (grade)",
+        "Curricular units 1st sem (without evaluations)"
+      ]
+    },
+    "C_dos_semestres": {
+      "original_features": 33,
+      "encoded_features": 218,
+      "categorical_features": [
+        "Marital Status",
+        "Application mode",
+        "Course",
+        "Previous qualification",
+        "Nacionality",
+        "Mother's qualification",
+        "Father's qualification",
+        "Mother's occupation",
+        "Father's occupation"
+      ],
+      "numeric_features": [
+        "Application order",
+        "Daytime/evening attendance",
+        "Previous qualification (grade)",
+        "Admission grade",
+        "Displaced",
+        "Educational special needs",
+        "Debtor",
+        "Tuition fees up to date",
+        "Gender",
+        "Scholarship holder",
+        "Age at enrollment",
+        "International",
+        "Curricular units 1st sem (credited)",
+        "Curricular units 1st sem (enrolled)",
+        "Curricular units 1st sem (evaluations)",
+        "Curricular units 1st sem (approved)",
+        "Curricular units 1st sem (grade)",
+        "Curricular units 1st sem (without evaluations)",
+        "Curricular units 2nd sem (credited)",
+        "Curricular units 2nd sem (enrolled)",
+        "Curricular units 2nd sem (evaluations)",
+        "Curricular units 2nd sem (approved)",
+        "Curricular units 2nd sem (grade)",
+        "Curricular units 2nd sem (without evaluations)"
+      ]
+    },
+    "D_completo": {
+      "original_features": 36,
+      "encoded_features": 221,
+      "categorical_features": [
+        "Marital Status",
+        "Application mode",
+        "Course",
+        "Previous qualification",
+        "Nacionality",
+        "Mother's qualification",
+        "Father's qualification",
+        "Mother's occupation",
+        "Father's occupation"
+      ],
+      "numeric_features": [
+        "Application order",
+        "Daytime/evening attendance",
+        "Previous qualification (grade)",
+        "Admission grade",
+        "Displaced",
+        "Educational special needs",
+        "Debtor",
+        "Tuition fees up to date",
+        "Gender",
+        "Scholarship holder",
+        "Age at enrollment",
+        "International",
+        "Curricular units 1st sem (credited)",
+        "Curricular units 1st sem (enrolled)",
+        "Curricular units 1st sem (evaluations)",
+        "Curricular units 1st sem (approved)",
+        "Curricular units 1st sem (grade)",
+        "Curricular units 1st sem (without evaluations)",
+        "Curricular units 2nd sem (credited)",
+        "Curricular units 2nd sem (enrolled)",
+        "Curricular units 2nd sem (evaluations)",
+        "Curricular units 2nd sem (approved)",
+        "Curricular units 2nd sem (grade)",
+        "Curricular units 2nd sem (without evaluations)",
+        "Unemployment rate",
+        "Inflation rate",
+        "GDP"
+      ]
+    }
+  }
+}

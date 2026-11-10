@@ -1,0 +1,14 @@
+{
+  "dataset": "UCI 697",
+  "test_size": 885,
+  "primary_scenario": "D_completo",
+  "primary_model": "Moderado",
+  "primary_seed": 42,
+  "selection_basis": "Mayor macro-F1 promedio en validacion de tres semillas entre estrategias de pesos",
+  "primary_metric": "macro_f1",
+  "primary_comparator": "Optuna",
+  "secondary_model": "Balanceado",
+  "secondary_objective": "Recall Enrolled",
+  "bootstrap_resamples": 2000,
+  "note": "No seleccionar ni reajustar modelos utilizando los resultados de test"
+}

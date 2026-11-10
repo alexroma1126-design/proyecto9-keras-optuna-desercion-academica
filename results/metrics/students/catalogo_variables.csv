@@ -1,0 +1,37 @@
+variable,grupo,tipo_python,valores_unicos,faltantes,ceros,minimo,maximo
+Marital Status,otra_variable,int64,6,0,0,1.0,6.0
+Application mode,otra_variable,int64,18,0,0,1.0,57.0
+Application order,otra_variable,int64,8,0,1,0.0,9.0
+Course,otra_variable,int64,17,0,0,33.0,9991.0
+Daytime/evening attendance,otra_variable,int64,2,0,483,0.0,1.0
+Previous qualification,otra_variable,int64,17,0,0,1.0,43.0
+Previous qualification (grade),otra_variable,float64,101,0,0,95.0,190.0
+Nacionality,otra_variable,int64,21,0,0,1.0,109.0
+Mother's qualification,otra_variable,int64,29,0,0,1.0,44.0
+Father's qualification,otra_variable,int64,34,0,0,1.0,44.0
+Mother's occupation,otra_variable,int64,32,0,144,0.0,194.0
+Father's occupation,otra_variable,int64,46,0,128,0.0,195.0
+Admission grade,otra_variable,float64,620,0,0,95.0,190.0
+Displaced,otra_variable,int64,2,0,1998,0.0,1.0
+Educational special needs,otra_variable,int64,2,0,4373,0.0,1.0
+Debtor,otra_variable,int64,2,0,3921,0.0,1.0
+Tuition fees up to date,otra_variable,int64,2,0,528,0.0,1.0
+Gender,otra_variable,int64,2,0,2868,0.0,1.0
+Scholarship holder,otra_variable,int64,2,0,3325,0.0,1.0
+Age at enrollment,otra_variable,int64,46,0,0,17.0,70.0
+International,otra_variable,int64,2,0,4314,0.0,1.0
+Curricular units 1st sem (credited),primer_semestre,int64,21,0,3847,0.0,20.0
+Curricular units 1st sem (enrolled),primer_semestre,int64,23,0,180,0.0,26.0
+Curricular units 1st sem (evaluations),primer_semestre,int64,35,0,349,0.0,45.0
+Curricular units 1st sem (approved),primer_semestre,int64,23,0,718,0.0,26.0
+Curricular units 1st sem (grade),primer_semestre,float64,797,0,718,0.0,18.875
+Curricular units 1st sem (without evaluations),primer_semestre,int64,11,0,4130,0.0,12.0
+Curricular units 2nd sem (credited),segundo_semestre,int64,19,0,3894,0.0,19.0
+Curricular units 2nd sem (enrolled),segundo_semestre,int64,22,0,180,0.0,23.0
+Curricular units 2nd sem (evaluations),segundo_semestre,int64,30,0,401,0.0,33.0
+Curricular units 2nd sem (approved),segundo_semestre,int64,20,0,870,0.0,20.0
+Curricular units 2nd sem (grade),segundo_semestre,float64,782,0,870,0.0,18.57142857
+Curricular units 2nd sem (without evaluations),segundo_semestre,int64,10,0,4142,0.0,12.0
+Unemployment rate,macroeconomica,float64,10,0,0,7.6,16.2
+Inflation rate,macroeconomica,float64,9,0,0,-0.8,3.7
+GDP,macroeconomica,float64,10,0,0,-4.06,3.51

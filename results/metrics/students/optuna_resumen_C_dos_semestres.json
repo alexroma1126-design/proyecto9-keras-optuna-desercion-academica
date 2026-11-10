@@ -1,0 +1,21 @@
+{
+  "scenario": "C_dos_semestres",
+  "method": "Optuna TPESampler",
+  "optimization_metric": "validation_macro_f1",
+  "seed": 42,
+  "trials_completed": 20,
+  "best_trial": 2,
+  "best_parameters": {
+    "n_layers": 1,
+    "dropout": 0.2,
+    "l2": 5.987474910461405e-05,
+    "learning_rate": 0.00011992724522955161,
+    "batch_size": 16,
+    "units_0": 32
+  },
+  "best_f1_macro": 0.7141804871517334,
+  "best_accuracy": 0.7807909604519774,
+  "baseline_f1_macro": 0.6892337820232551,
+  "delta_f1": 0.024946705128478297,
+  "test_used": false
+}

@@ -1,0 +1,86 @@
+{
+  "source": "UCI Machine Learning Repository",
+  "dataset_id": 697,
+  "rows": 4424,
+  "features": 36,
+  "classes": {
+    "Dropout": 1421,
+    "Enrolled": 794,
+    "Graduate": 2209
+  },
+  "missing": 0,
+  "duplicates": 0,
+  "feature_groups": {
+    "first_semester": [
+      "Curricular units 1st sem (credited)",
+      "Curricular units 1st sem (enrolled)",
+      "Curricular units 1st sem (evaluations)",
+      "Curricular units 1st sem (approved)",
+      "Curricular units 1st sem (grade)",
+      "Curricular units 1st sem (without evaluations)"
+    ],
+    "second_semester": [
+      "Curricular units 2nd sem (credited)",
+      "Curricular units 2nd sem (enrolled)",
+      "Curricular units 2nd sem (evaluations)",
+      "Curricular units 2nd sem (approved)",
+      "Curricular units 2nd sem (grade)",
+      "Curricular units 2nd sem (without evaluations)"
+    ],
+    "macroeconomic": [
+      "Unemployment rate",
+      "Inflation rate",
+      "GDP"
+    ],
+    "without_semester_results": [
+      "Marital Status",
+      "Application mode",
+      "Application order",
+      "Course",
+      "Daytime/evening attendance",
+      "Previous qualification",
+      "Previous qualification (grade)",
+      "Nacionality",
+      "Mother's qualification",
+      "Father's qualification",
+      "Mother's occupation",
+      "Father's occupation",
+      "Admission grade",
+      "Displaced",
+      "Educational special needs",
+      "Debtor",
+      "Tuition fees up to date",
+      "Gender",
+      "Scholarship holder",
+      "Age at enrollment",
+      "International",
+      "Unemployment rate",
+      "Inflation rate",
+      "GDP"
+    ],
+    "without_semesters_or_macro": [
+      "Marital Status",
+      "Application mode",
+      "Application order",
+      "Course",
+      "Daytime/evening attendance",
+      "Previous qualification",
+      "Previous qualification (grade)",
+      "Nacionality",
+      "Mother's qualification",
+      "Father's qualification",
+      "Mother's occupation",
+      "Father's occupation",
+      "Admission grade",
+      "Displaced",
+      "Educational special needs",
+      "Debtor",
+      "Tuition fees up to date",
+      "Gender",
+      "Scholarship holder",
+      "Age at enrollment",
+      "International"
+    ]
+  },
+  "methodological_note": "Temporal availability must be audited before claiming prediction at enrollment."
+}

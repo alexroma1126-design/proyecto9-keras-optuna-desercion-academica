@@ -1,0 +1,150 @@
+{
+  "proyecto": "Proyecto 9 - IA",
+  "comprobaciones": [
+    {
+      "comprobacion": "00_descargar_datos_uci.py",
+      "correcto": true
+    },
+    {
+      "comprobacion": "03_student_eda.py",
+      "correcto": true
+    },
+    {
+      "comprobacion": "04_preprocesamiento.py",
+      "correcto": true
+    },
+    {
+      "comprobacion": "05_modelos_base.py",
+      "correcto": true
+    },
+    {
+      "comprobacion": "06_optuna.py",
+      "correcto": true
+    },
+    {
+      "comprobacion": "07_balanceo_clases.py",
+      "correcto": true
+    },
+    {
+      "comprobacion": "08_evaluacion_final.py",
+      "correcto": true
+    },
+    {
+      "comprobacion": "09_importancia_permutacion.py",
+      "correcto": true
+    },
+    {
+      "comprobacion": "A_sin_semestres",
+      "correcto": true
+    },
+    {
+      "comprobacion": "B_primer_semestre",
+      "correcto": true
+    },
+    {
+      "comprobacion": "C_dos_semestres",
+      "correcto": true
+    },
+    {
+      "comprobacion": "D_completo",
+      "correcto": true
+    },
+    {
+      "comprobacion": "A_sin_semestres: 20 ensayos",
+      "correcto": true
+    },
+    {
+      "comprobacion": "B_primer_semestre: 20 ensayos",
+      "correcto": true
+    },
+    {
+      "comprobacion": "C_dos_semestres: 20 ensayos",
+      "correcto": true
+    },
+    {
+      "comprobacion": "D_completo: 20 ensayos",
+      "correcto": true
+    },
+    {
+      "comprobacion": "Total: 80 ensayos completos",
+      "correcto": true
+    },
+    {
+      "comprobacion": "Modelos y transformadores: 21/21",
+      "correcto": true
+    },
+    {
+      "comprobacion": "Diez evaluaciones finales",
+      "correcto": true
+    },
+    {
+      "comprobacion": "protocolo_final.json",
+      "correcto": true
+    },
+    {
+      "comprobacion": "bootstrap_final.json",
+      "correcto": true
+    },
+    {
+      "comprobacion": "evaluacion_final_por_clase.csv",
+      "correcto": true
+    },
+    {
+      "comprobacion": "experimento_pesos_ejecuciones.csv",
+      "correcto": true
+    },
+    {
+      "comprobacion": "experimento_pesos_resumen.csv",
+      "correcto": true
+    },
+    {
+      "comprobacion": "importancia_permutacion.csv",
+      "correcto": true
+    },
+    {
+      "comprobacion": "comparacion_baselines_validacion.csv",
+      "correcto": true
+    },
+    {
+      "comprobacion": "README.md",
+      "correcto": true
+    },
+    {
+      "comprobacion": "requirements-lock.txt",
+      "correcto": true
+    },
+    {
+      "comprobacion": "resumen_resultados.md",
+      "correcto": true
+    },
+    {
+      "comprobacion": "student_dropout_success.csv",
+      "correcto": true
+    },
+    {
+      "comprobacion": "09_importancia_permutacion.png",
+      "correcto": true
+    },
+    {
+      "comprobacion": "test_comparacion_escenarios.png",
+      "correcto": true
+    },
+    {
+      "comprobacion": "test_matriz_D_Moderado.png",
+      "correcto": true
+    },
+    {
+      "comprobacion": "test_matriz_D_Optuna.png",
+      "correcto": true
+    }
+  ],
+  "total_comprobaciones": 34,
+  "correctas": 34,
+  "errores": [],
+  "sha256": {
+    "README.md": "ddcb315b72035f3b36b08e0adc5751e9e4c7ef9ee682e859c22d328f9afef81a",
+    "docs\\resumen_resultados.md": "2fad9af71649183caf19de2b53e6228f704b52c5eb862465dbab9c04c75f0b36",
+    "data\\raw\\student_dropout_success.csv": "037b6403d6bf6f5d99b47c5375403ddbca9158f7ea367163499f973908e6604c",
+    "results\\metrics\\students\\evaluacion_final_test.csv": "5d512f97942dc2bd64021d2f440a4ced1a44d0ac953bfec5cba805de0ebaa8e9"
+  }
+}

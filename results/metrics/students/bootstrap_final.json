@@ -1,0 +1,15 @@
+{
+  "comparison": "D Moderado minus D Optuna",
+  "confidence_level": 0.95,
+  "method": "paired_percentile_bootstrap",
+  "resamples": 2000,
+  "macro_f1_delta_ci": [
+    -0.01625334417516398,
+    0.019098799026218558
+  ],
+  "recall_enrolled_delta_ci": [
+    0.04268292682926833,
+    0.1272727272727272
+  ],
+  "interpretation": "Intervalos exploratorios de una unica particion test; no implican causalidad"
+}
